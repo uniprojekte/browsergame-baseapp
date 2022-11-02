@@ -1,0 +1,13 @@
+{
+    "name": "browsergame-baseapp",
+    "version": "1.0.0",
+    "description": "browsergame-baseapp is a tiny client-side application",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "browserify": "browserify ./game/main.js -d -o ./public/bundle.js",
+        "watchify": "watchify ./game/main.js -d -o ./public/bundle.js"
+    },
+    "keywords": [],
+    "author": "Ralf Peters",
+    "license": "MIT"
+}
